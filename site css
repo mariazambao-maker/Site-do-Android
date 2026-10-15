@@ -26,28 +26,26 @@ margin: 0px;
 padding: 0px;
 }
 body{
-background-color: var(--cor0);
-font-size: var(--font-padrão);
+background-color:var(--cor0);
+font-family: var(--font-padrão);
 }
 
 a.externo::after{
-content: '\00A0\1F517';
+content: '\00A0\1f517';
 }
 header{
-background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
+background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
 min-height: 150px;
 text-align: center;
 padding-top: 40px;
 }
-
-header > h1{
-color: white;
+header>h1{
+color:white;
 font-family: var(--font-destaque);
 font-size: 3em;
 font-weight: normal;
 margin-bottom: 20px;
-text-shadow: 2px 2px 0px rgb(0,0,0.267);
-
+text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.267);
 }
 
 header > p{
@@ -59,15 +57,18 @@ padding-right: 10px;
 padding-left: 10px;
 margin: auto;
 padding-bottom: 50px;
-text-shadow: 2px, 2px, 0px rgba(0, 0, 0, 0.267);
+text-shadow: 2px, 2px, 0px rgb(0, 0, 0, 0.315);
 }
 
 nav{
 background-color: var(--cor5);
 padding: 10px;
-box-shadow: 0px 7px 7px rgb(0,0,0,0.167);
+box-shadow: 0 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 nav> a{
-    color: var(--cor1);
-    }
+color: var(--cor1);
+padding: 10px;
+border-radius: 5px;
+text-decoration: none;
+}
